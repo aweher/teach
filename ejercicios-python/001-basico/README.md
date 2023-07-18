@@ -9,6 +9,11 @@ Ideas para ejercicios de programación estructurada que te ayudarán a reforzar 
 ## 3- Adivina el Número
    Implementa un juego donde la computadora selecciona aleatoriamente un número entre 1 y 100, y luego el usuario intenta adivinar el número. La computadora debería dar pistas como "Demasiado alto" o "Demasiado bajo".
 
+```python
+import random
+numero_aleatorio = random.randint(1, 100)
+```
+
 ## 4- Números Primos
    Escribe una función que verifique si un número es primo o no. Luego, escribe otra función que imprima todos los números primos hasta n.
 
